@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-17T17:50:01 IST" name="Maseter Suite" finished-at="2024-10-17T17:50:12 IST" duration-ms="10579">
+    <groups>
+      <group name="Master">
+        <method signature="TC03_LoginPage.Login_Page_Verification()[pri:0, instance:testCases.TC03_LoginPage@56673b2c]" name="Login_Page_Verification" class="testCases.TC03_LoginPage"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC03_LoginPage.Login_Page_Verification()[pri:0, instance:testCases.TC03_LoginPage@56673b2c]" name="Login_Page_Verification" class="testCases.TC03_LoginPage"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-10-17T17:50:01 IST" name="Test" finished-at="2024-10-17T17:50:12 IST" duration-ms="10579">
+      <class name="testCases.TC03_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginPage@56673b2c]" started-at="2024-10-17T17:50:01 IST" name="setup" finished-at="2024-10-17T17:50:10 IST" duration-ms="8358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_Page_Verification()[pri:0, instance:testCases.TC03_LoginPage@56673b2c]" started-at="2024-10-17T17:50:10 IST" name="Login_Page_Verification" finished-at="2024-10-17T17:50:12 IST" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page_Verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_LoginPage@56673b2c]" started-at="2024-10-17T17:50:12 IST" name="tearDown" finished-at="2024-10-17T17:50:12 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Maseter Suite -->
+</testng-results>
